@@ -7,16 +7,36 @@ buttons.forEach(button => {
 });
 
 function updateContent(date) {
-console.log(date);
+    console.log(date);
     switch (date) {
         case "1894":
             // Change Text
             // Change Picture
             console.log("it worked");
             break;
-            
+        case "1911":
+            // Change Text
+            // Change Picture
+            console.log("it worked");
+            break;
+        case "1952":
+            // Change Text
+            // Change Picture
+            console.log("it worked");
+            break;
+        case "1955":
+            // Change Text
+            // Change Picture
+            console.log("it worked");
+            break;
+        case "1993":
+            // Change Text
+            // Change Picture
+            console.log("it worked");
+            break;
         default:
-            alert("something went wrong");
+            console.log("something went wrong: " + date);
     }
 
 }
+
